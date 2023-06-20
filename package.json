@@ -2,9 +2,9 @@
   "name": "stock-prediction-ai",
   "version": "1.0.0",
   "description": "A web application that uses TensorFlow.js and LSTM model to predict stock prices based on historical data",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
