@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- I've set the character encoding for the document as UTF-8 to support most characters and emojis -->
+    <meta charset="UTF-8">
+    
+    <!-- I included the viewport meta tag to make sure the webpage looks good on all devices, not just desktops -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- This is the title of the project, clear and descriptive -->
+    <title>AI-based Stock Price Predictor using LSTM and Alpha Vantage API (TSLA)</title>
+
+    <!-- Here I'm linking my custom CSS file to give styling to the page -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- I'm including Chart.js here because I want to display beautiful, interactive charts on the webpage -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.3.0/dist/chart.umd.js"></script>
+    
+    <!-- Handling dates can be tricky, so I've brought in Luxon, a library that simplifies date and time manipulation -->
+    <script src="https://cdn.jsdelivr.net/npm/luxon@1"></script>
+
+    <!-- To make Chart.js work smoothly with Luxon, I'm using this handy adapter -->
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-luxon@1"></script>
+
+    <!-- Here I'm adding a favicon to the tab -->
+    <link rel="icon" href="/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- I wanted a simple and clean interface, so I went with a single header for my project title -->
+    <header>
+        <h1>AI-based Stock Price Predictor using LSTM and Alpha Vantage API (TSLA)</h1>
+    </header>
+    
+    <!-- This canvas is where I'll be plotting the stock prices and predictions -->
+    <canvas id="StockAI"></canvas>
+
+    <!-- Finally, I'm linking to my custom JavaScript file. This is where the bulk of the project logic resides -->
+    <script src="app.js"></script>
+</body>
+
+</html>

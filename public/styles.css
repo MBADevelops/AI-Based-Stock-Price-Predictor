@@ -1,0 +1,14 @@
+/* Let's begin by styling the overall body of our webpage */
+body {
+    background-color: #f0f0f0;  /* I've chosen a light gray as our background color for a soft and easy on the eyes look */
+    font-family: sans-serif, Helvetica;  /* I want our text to be clear and modern, hence the choice of sans-serif with Helvetica as fallback */
+    padding: 0 10px; /* Adding a little bit of padding on the left and right side for some breathing room */
+}
+
+/* Now let's move on to the header. I want it to stand out and clearly denote the start of our page */
+header {
+    background-color: #007BFF;  /* I've opted for a blue background color. It's bright, inviting and it stands out */
+    color: white;  /* To contrast with our blue background, I'm using white color for our text */
+    padding: 5px;  /* A bit of padding to give our text some room and not feel cramped */
+    text-align: center;  /* I want our title to be the center of attention, hence center aligning the text */
+}
