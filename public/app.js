@@ -1,3 +1,6 @@
+// I start by defining the context for the chart that I will be drawing.
+let ctx = document.getElementById('StockAI').getContext('2d');
+
 // I create an initially empty line chart using Chart.js. This will fill with data later on.
 let chart = new Chart(ctx, {
     type: 'line',
