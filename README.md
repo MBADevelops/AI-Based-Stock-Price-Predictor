@@ -1,5 +1,4 @@
-# AI-Based Stock Price Predictor
- An intuitive, web-based application leveraging the power of Artificial Intelligence (AI) to predict stock price movements with the aid of Machine Learning (ML).
+An intuitive, web-based application leveraging the power of Artificial Intelligence (AI) to predict stock price movements with the aid of Machine Learning (ML).
  
 ## Project Overview
 This project presents an innovative approach to predicting stock price movements using the power of AI. At the heart of the system is an LSTM (Long Short-Term Memory) Machine Learning model, trained with historical stock data to predict future price movements.
@@ -16,7 +15,7 @@ All the operations are executed within a user-friendly and intuitive web interfa
 1. Clone the repository.
 2. Install the necessary dependencies by running `npm install` from the command line.
 3. Start the server by running `npm start`.
-4. Open a web browser and navigate to `localhost:3000` to interact with the application.
+4. Open a web browser and navigate to `localhost:3000` to view and interact with the application.
 
 ## Technologies Used
 This project is built using a range of technologies:
@@ -30,14 +29,15 @@ This project is built using a range of technologies:
 ## Known Issues
 This project is a work in progress and, as such, there may be certain issues that you encounter while using it. One such issue that we're currently working on is the initial load time; due to the complex nature of the AI model, there may be some slowness on load. We understand this can affect the user experience and we're actively working on ways to optimize the model without compromising on its accuracy.
 
-Slow load times: Due to the adjustment of the training process from 125 to 10 epochs, the project's initial load time will be faster than before. This change was made to improve the project's initialization speed, although it will certainly have an impact on the accuracy of the AI model.
+Slow Load Times: Currently, the project experiences slow load times due to the complex nature of the AI and the absence of local model training. This issue will be resolved in future updates by training the model locally. Efforts are underway to optimize the project's performance and improve load times.
 
 Additionally, while we strive to make our predictions as accurate as possible, it's important to understand that the model's predictions should not be used for actual trading decisions. The world of stock trading is incredibly complex and while our AI model is a powerful tool, it does not take into account all possible factors that could influence a stock's price. Therefore, any trading decisions should be made with careful consideration and professional advice.
 
 ## Future Development
-Going forward, there are several exciting avenues for improvement and extension of this project. One of these is incorporating additional dimensions of data into our AI model. Currently, the model utilizes 'close price' data for training and prediction, and while this gives a good approximation, it doesn't tell the whole story of the stock's movement.
 
-Improved Accuracy: Currently, the AI model achieves its highest accuracy when trained for 125 epochs. However, due to load time considerations, the number of epochs has been temporarily reduced to 10. As part of future development, the intention is to train the model before loading the page to strike a balance between accuracy and load time. This approach will ensure that the AI model's accuracy is optimized while maintaining an acceptable load time for the project.
+Improved Model Training: The AI model has been adjusted to 125 epochs to attain optimal accuracy. However, due to slow load times caused by the complex nature of the AI, the model will be trained locally to enhance performance. This update aims to reduce load times and ensure a smoother user experience.
+
+Going forward, there are several exciting avenues for improvement and extension of this project. One of these is incorporating additional dimensions of data into our AI model. Currently, the model utilizes 'close price' data for training and prediction, and while this gives a good approximation, it doesn't tell the whole story of the stock's movement.
 
 A significant future enhancement would be to factor in the trading 'volume' into our AI model. Volume is a key indicator in stock trading, as it reflects the number of shares that changed hands during a given period. High-volume periods can often signal important events driving increased trading activity, such as earnings releases, product launches, or news shocks.
 
