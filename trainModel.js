@@ -66,7 +66,7 @@ async function trainModel() {
 
     // The training begins!
     await model.fit(xs, ys, {
-        epochs: 10
+        epochs: 125
     });
 
     // I return the trained model.
