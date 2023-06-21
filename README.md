@@ -1,4 +1,6 @@
 An intuitive, web-based application leveraging the power of Artificial Intelligence (AI) to predict stock price movements with the aid of Machine Learning (ML).
+
+<img src="./public/stockai.png" alt="AI Stock Prediction Sample" width="800">
  
 ## Project Overview
 This project presents an innovative approach to predicting stock price movements using the power of AI. At the heart of the system is an LSTM (Long Short-Term Memory) Machine Learning model, trained with historical stock data to predict future price movements.
