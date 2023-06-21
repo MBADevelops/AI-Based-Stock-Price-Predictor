@@ -29,10 +29,15 @@ This project is built using a range of technologies:
 
 ## Known Issues
 This project is a work in progress and, as such, there may be certain issues that you encounter while using it. One such issue that we're currently working on is the initial load time; due to the complex nature of the AI model, there may be some slowness on load. We understand this can affect the user experience and we're actively working on ways to optimize the model without compromising on its accuracy.
+
+Slow load times: Due to the adjustment of the training process from 125 to 10 epochs, the project's initial load time will be faster than before. This change was made to improve the project's initialization speed, although it will certainly have an impact on the accuracy of the AI model.
+
 Additionally, while we strive to make our predictions as accurate as possible, it's important to understand that the model's predictions should not be used for actual trading decisions. The world of stock trading is incredibly complex and while our AI model is a powerful tool, it does not take into account all possible factors that could influence a stock's price. Therefore, any trading decisions should be made with careful consideration and professional advice.
 
 ## Future Development
 Going forward, there are several exciting avenues for improvement and extension of this project. One of these is incorporating additional dimensions of data into our AI model. Currently, the model utilizes 'close price' data for training and prediction, and while this gives a good approximation, it doesn't tell the whole story of the stock's movement.
+
+Improved Accuracy: Currently, the AI model achieves its highest accuracy when trained for 125 epochs. However, due to load time considerations, the number of epochs has been temporarily reduced to 10. As part of future development, the intention is to train the model before loading the page to strike a balance between accuracy and load time. This approach will ensure that the AI model's accuracy is optimized while maintaining an acceptable load time for the project.
 
 A significant future enhancement would be to factor in the trading 'volume' into our AI model. Volume is a key indicator in stock trading, as it reflects the number of shares that changed hands during a given period. High-volume periods can often signal important events driving increased trading activity, such as earnings releases, product launches, or news shocks.
 
